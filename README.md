@@ -20,3 +20,9 @@ docker run -d --name productpage -p 8083:9080 productpage
 ```
 
 * Test with path `/` and `/health`
+
+## How to run with Docker Compose
+
+```bash
+docker-compose up
+```

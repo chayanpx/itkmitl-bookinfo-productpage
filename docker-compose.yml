@@ -1,0 +1,6 @@
+services:
+  ratings:
+    build: .
+    image: ghcr.io/chayanpx/bookinfo-productpage:dev
+    ports:
+      - "8083:9080"
